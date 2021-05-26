@@ -1,15 +1,26 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <!-- <refSetup /> -->
+  <todoList />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import refSetup from './components/refSetup.vue'   //
+import todoList from './components/todoList.vue'   //
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    refSetup,
+    todoList
   }
 }
 </script>
+<style lang="">
+  ul li {
+    list-style: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+</style>
