@@ -1,18 +1,10 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <!-- <refSetup /> -->
-  <todoList />
+  <router-view />
 </template>
-
 <script>
-import refSetup from './components/refSetup.vue'   //
-import todoList from './components/todoList.vue'   //
 export default {
   name: 'App',
-  components: {
-    refSetup,
-    todoList
-  }
+  components: {}
 }
 </script>
 <style lang="">
